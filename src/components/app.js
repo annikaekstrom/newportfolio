@@ -1,11 +1,12 @@
 import React from "react"
+import Firstpage from "./firstpage"
 
 class App extends React.Component {
 
   render() {
     return (
       <div>
-        Find me in src/app.js!
+        <Firstpage />
       </div>
     )
   }
