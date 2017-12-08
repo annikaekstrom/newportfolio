@@ -1,33 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar');
+
 * {
   box-sizing: border-box;
 }
 
-.body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background-color: #d0b997;
-}
-
-.menu {
-  width: 100%;
-  display: flex;
-  background: rgba(16, 16, 16, 0.21);
-  height: 50px;
-  position: fixed;
-}
-
-ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-li {
-  list-style: none;
-  border-bottom: 2px solid;
-  border-color: red;
+#annika {
+    font-family: 'Codystar', cursive;
+    color: white;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    animation: down 2s 1 ease-in-out;
 }
 
 .container {
@@ -38,13 +26,13 @@ li {
   width: 100%;
   height: auto;
   margin-left: 0;
-  background: #e3cac2;
+  background: #e3dbd9;
 }
 
 .main {
   width: 400px;
   height: 400px;
-  background: #e3cac2;
+  background: #e3dbd9;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -57,13 +45,18 @@ hr {
   width: 500px;
 }
 .image {
-  width: 200px;
+  width: 250px;
   height: 400px;
   background: white;
 }
 
+img {
+  width: 250px;
+  height: 400px;
+}
+
 .text {
-  width: 200px;
+  width: 250px;
   height: 400px;
   background: #b9a7a7;
   animation-name: turn;
@@ -73,7 +66,7 @@ hr {
 p#text {
   text-align: center;
   padding: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
   animation-name: turnleft;
   animation-duration: 5s;
 }
@@ -86,7 +79,7 @@ p#text {
   animation: slide 4s 1 ease-in-out;
   transform : translateX(300px);
 }
-/*
+
 @keyframes turn {
   0% {
   background: red;
@@ -115,7 +108,7 @@ p#text {
   100% {
     transform: rotate(-90deg);
   }
-}*/
+}
 
 @keyframes slide {
   0% {
@@ -124,5 +117,16 @@ p#text {
 
   50% {
     transform : translateX(300px);
+  }
+
+}
+
+@keyframes down {
+  0% {
+    transform: translateY(-100px);
+  }
+
+  50% {
+    transform: translateY(0px);
   }
 }

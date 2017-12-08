@@ -1,0 +1,25 @@
+.menu {
+  width: 100%;
+  display: flex;
+  background: rgba(16, 16, 16, 0.21);
+  height: 50px;
+  position: fixed;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  /*border-bottom: 2px solid;
+  border-color: red;*/
+  color: white;
+}
+
+a {
+  color: white;
+  list-style: none;
+}
