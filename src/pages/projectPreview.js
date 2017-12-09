@@ -7,12 +7,12 @@ class ProjectPreview extends React.Component {
 
   render() {
     return (
-      <Link to={`/projects/${this.props.url}`} className="ProjectPreview">
-        <div className="container">
+      <Link to={`/projects/${this.props.url}`} className="projects">
+        <div className="name">
           <h1>{this.props.name}</h1>
 
           <div className="description">
-            <h1>{this.props.description}</h1>
+            <p>{this.props.description}</p>
           </div>
         </div>
       </Link>

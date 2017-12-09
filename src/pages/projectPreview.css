@@ -1,7 +1,11 @@
 .container {
   width: 100%;
-  height: auto;
+  height: 900px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.name {
+  
 }

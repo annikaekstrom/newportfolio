@@ -5,6 +5,7 @@ import About from "pages/about"
 import Faq from "pages/faq"
 import Home from "pages/home"
 import Navigation from "./navigation"
+import Footer from "./footer"
 
 class App extends React.Component {
 
@@ -17,7 +18,7 @@ class App extends React.Component {
           <Route path="/projects" component={ProjectPreview} />
           <Route path="/about" component={About} />
           <Route path="/faq" component={Faq} />
-
+          <Footer />
         </div>
       </BrowserRouter>
     )

@@ -26,12 +26,12 @@ class Home extends React.Component {
               </div>
             </div>
             <hr />
-            <div className="info">
+            <div className="info background">
               <h1>My Background</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet saepe.</p>
             </div>
             <hr />
-            <div className="info">
+            <div className="info future">
               <h1>My Future</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet saepe.</p>
             </div>
