@@ -8,6 +8,7 @@ class Faq extends React.Component {
       <div>
 
         <div className="images">
+          <img id="kolla" src="./codeimage.PNG" alt="code" />
           <div className="faq">
             <h1>Frequently Asked Questions</h1>
           </div>

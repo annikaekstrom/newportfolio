@@ -18,10 +18,10 @@ class Home extends React.Component {
                 <img src="./annika1.png" alt="Annika" />
               </div>
               <div className="text">
-                <p id="text">Text about meText about meText about meText about meText about me
-                  Text about meText about meText about meText about meText about me
-                  Text about meText about meText about meText about meText about me
-                  Text about meText about meText about meText about meText about me
+                <p id="text">My name is Annika Ekström,
+                  I am currently studying
+                  web development at Technigo.
+                  Welcome to navigate around in my portfolio.
                 </p>
               </div>
             </div>

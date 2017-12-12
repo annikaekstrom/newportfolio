@@ -1,5 +1,5 @@
 import React from "react"
-import projects from "data/projects"
+import projects from "./data/projects"
 import "./projectPage.css"
 
 class ProjectPage extends React.Component {

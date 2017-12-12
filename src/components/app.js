@@ -1,9 +1,9 @@
 import React from "react"
 import { BrowserRouter, Route } from "react-router-dom"
-import ProjectPreview from "pages/projectPreview"
 import About from "pages/about"
 import Faq from "pages/faq"
 import Home from "pages/home"
+import ProjectPreview from "./../pages/projectPreview"
 import Navigation from "./navigation"
 import Footer from "./footer"
 
@@ -19,6 +19,7 @@ class App extends React.Component {
           <Route path="/about" component={About} />
           <Route path="/faq" component={Faq} />
           <Footer />
+
         </div>
       </BrowserRouter>
     )

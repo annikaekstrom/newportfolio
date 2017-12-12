@@ -1,21 +1,26 @@
 import React from "react"
-import ProjectPage from "pages/projectPage"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
+import projects from "./../data/projects"
 import "./projectPreview.css"
+import Details from "./details"
 
 class ProjectPreview extends React.Component {
 
   render() {
     return (
-      <Link to={`/projects/${this.props.url}`} className="projects">
-        <div className="name">
-          <h1>{this.props.name}</h1>
-
-          <div className="description">
-            <p>{this.props.description}</p>
+      // <Link to={`/projects/${this.props.url}`} className="projects">
+      <div className="projectcontainer">
+        <div className="mainproducts">
+          <div className="productdetails">
+            {projects.map((item) => {
+              return <Details
+                key={item.id}
+                name={item.name}
+                description={item.description} />
+            })}
           </div>
         </div>
-      </Link>
+      </div>
     )
   }
 

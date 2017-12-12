@@ -7,12 +7,18 @@ class Navigation extends React.Component {
   render() {
     return (
       <div>
+        <label className="hamburger" htmlFor="hamburger">
+          <div className="burgermenu" />
+          <div className="burgermenu" />
+          <div className="burgermenu" />
+        </label>
+        <input id="hamburger" type="checkbox" className="hamburger-checkbox" />
         <div className="menu">
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/faq">FAQ</Link></li>
+            <li><Link to="/">HOME</Link></li>
+            <li><Link to="/projects">PROJECTS</Link></li>
+            <li><Link to="/about">ABOUT</Link></li>
+            {/* <li><Link to="/faq">FAQ</Link></li> */}
           </ul>
         </div>
       </div>
