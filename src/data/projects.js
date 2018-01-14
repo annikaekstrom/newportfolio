@@ -11,13 +11,13 @@ export default [
   {
     id: "yearbook",
     name: "Yearbook",
-    description: "Importing data using flex-box.",
+    description: "First school project using flex-box.",
     projectImage: example,
     link: "https://annikaekstrom.github.io/assignment-yearbook/"
   }, {
     id: "clock",
     name: "Clock",
-    description: "Using React and js to fetch the time.",
+    description: "Using React and JS to fetch the time.",
     projectImage: clock,
     link: "https://annikaekstrom.github.io/assignment-clock"
   }, {

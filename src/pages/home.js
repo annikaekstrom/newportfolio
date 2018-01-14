@@ -41,11 +41,11 @@ class Home extends React.Component {
             <hr />
             <div className="info future">
               <h1>My Future</h1>
-              <p>With service in mind, I want to add on
-                the new knowledge with HTML, CSS, JavaScript,
+              <p>I want to add on
+                the new knowledge within HTML, CSS, JavaScript,
                 React and Node and work with projects
                 where I can add value with my combination of
-                service-mindness and webdevelopment.
+                service-mindness and web development.
               </p>
             </div>
           </div>
